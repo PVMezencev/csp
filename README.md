@@ -10,6 +10,18 @@
 pip install pillow
 ```
 
+**Запустить с параметрами:**
+```commandline
+python main.py -p demo/demo_profiles.csv -o demo/demo_order.csv -t 15
+```
+где
+```commandline
+-p demo/demo_profiles.csv - исходные профили
+-o demo/demo_order.csv - заказ заготовок
+-t 15 - допуск
+-h - показать справку
+```
+
 ### Описание
     Задача решается методом динамического программирования на основе алгоритмов П. Гилмора и Р. Гомори.
     За пример взята задача о "ранце" или "рюкзаке", где
